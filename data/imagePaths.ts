@@ -1,3 +1,4 @@
+
 // This file centralizes all static image paths for easy management.
 // To update any image on the site, simply change the corresponding URL here.
 
@@ -38,9 +39,17 @@ export const imagePaths = {
   portfolioProject5: 'https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   portfolioProject6: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   portfolioProject7: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  // New Projects
+  portfolioProject8: 'https://images.pexels.com/photos/6169009/pexels-photo-6169009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Shipment
+  portfolioProject9: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Mentorship
+  portfolioProject10: 'https://images.pexels.com/photos/6863250/pexels-photo-6863250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Finance
+  portfolioProject11: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // App/Web Project
+  portfolioProject12: 'https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Agro Feasibility
+  portfolioProject13: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Data Warehouse
+  portfolioProject14: 'https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Inventory
 
   // Contact Page
-  contactHero1: 'https://images.pexels.com/photos/48148/document-business-graph-chart-48148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  contactHero1: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   contactHero2: 'https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   contactHero3: 'https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 };

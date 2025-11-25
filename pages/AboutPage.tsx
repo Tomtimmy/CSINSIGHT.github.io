@@ -5,7 +5,7 @@ import Button from '../components/Button';
 import LazyImage from '../components/LazyImage';
 import { imagePaths } from '../data/imagePaths';
 import FadeInSection from '../components/FadeInSection';
-import TeamCarousel from '../components/TeamCarousel';
+// import TeamCarousel from '../components/TeamCarousel'; // Hidden for now
 
 const coreValues = [
   {
@@ -35,6 +35,7 @@ const coreValues = [
   },
 ];
 
+/* Leadership section hidden for now
 const leadershipTeam = [
     {
         name: 'John Doe',
@@ -54,6 +55,53 @@ const leadershipTeam = [
         bio: 'Sam leads our analytics team, transforming complex datasets into clear, actionable insights. His expertise in business intelligence empowers our clients to make smarter, more informed decisions.',
         imageUrl: imagePaths.aboutTeamSam,
     }
+];
+*/
+
+// Replacement Content: Industries We Serve
+const industries = [
+  {
+    name: 'Manufacturing & Supply Chain',
+    description: 'Optimizing logistics, production planning, and inventory management for operational excellence.',
+    icon: (
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+    )
+  },
+  {
+    name: 'Government & Public Sector',
+    description: 'Supporting policy implementation, project management, and capacity building for public institutions.',
+    icon: (
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" /></svg>
+    )
+  },
+  {
+    name: 'Retail & E-commerce',
+    description: 'Leveraging data analytics to understand consumer behavior and optimize digital sales channels.',
+    icon: (
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+    )
+  },
+  {
+    name: 'Financial Services',
+    description: 'Enhancing risk management, regulatory compliance, and digital transformation strategies.',
+    icon: (
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+    )
+  },
+  {
+     name: 'Non-Profit & NGOs',
+     description: 'Providing strategic planning and impact assessment to maximize social value.',
+     icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+     )
+  },
+  {
+    name: 'Technology & Startups',
+    description: 'Guiding scalable growth, product-market fit, and efficient operational scaling.',
+    icon: (
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+    )
+  }
 ];
 
 const historyMilestones = [
@@ -157,15 +205,23 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Meet Our Leadership */}
+      {/* Industries We Serve Section (Replaces Meet Our Leadership) */}
       <section className="py-16 sm:py-24 bg-white dark:bg-gray-900">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center max-w-3xl mx-auto">
-                  <h2 className="text-3xl font-extrabold text-primary dark:text-white sm:text-4xl">Meet Our Leadership</h2>
-                  <p className="mt-4 text-lg text-text-dark dark:text-gray-300">The experienced team dedicated to your success.</p>
+                  <h2 className="text-3xl font-extrabold text-primary dark:text-white sm:text-4xl">Industries We Serve</h2>
+                  <p className="mt-4 text-lg text-text-dark dark:text-gray-300">We bring deep sector expertise to help diverse organizations thrive.</p>
               </div>
-              <div className="mt-16">
-                <TeamCarousel teamMembers={leadershipTeam} />
+              <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                  {industries.map((industry, index) => (
+                      <div key={index} className="bg-light-bg dark:bg-gray-800 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                          <div className="flex items-center justify-center w-16 h-16 bg-primary dark:bg-secondary rounded-full mb-6 shadow-md">
+                              {industry.icon}
+                          </div>
+                          <h3 className="text-xl font-bold text-text-dark dark:text-white">{industry.name}</h3>
+                          <p className="mt-2 text-text-dark dark:text-gray-300">{industry.description}</p>
+                      </div>
+                  ))}
               </div>
           </div>
       </section>

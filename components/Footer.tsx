@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { imagePaths } from '../data/imagePaths';
@@ -29,6 +28,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="mt-6">
                 <p className="text-gray-300">No. 5, Eta Avenue, Oregun Ikeja.</p>
+                <p className="text-gray-300">14 Ilupeju Street, Abule Egba, Lagos, Nigeria.</p>
                 <p className="mt-2 text-gray-300">
                   Phone: <a href="tel:+2348132847661" className="hover:text-secondary">+234 813 284 7661</a>
                 </p>
@@ -48,7 +48,6 @@ const Footer: React.FC = () => {
               <li><Link to="/blog" className="hover:text-secondary transition-colors">Blog</Link></li>
               <li><Link to="/contact" className="hover:text-secondary transition-colors">Contact</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-secondary transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/blog/create" className="hover:text-secondary transition-colors">Create Post</Link></li>
             </ul>
           </div>
           
@@ -66,9 +65,9 @@ const Footer: React.FC = () => {
               </SocialIcon>
               <SocialIcon href="https://www.instagram.com/cs_insights_solutions?utm_source=qr&igsh=MW5tbTBkeWJiZHE1Mg==">
                 <span className="sr-only">Instagram</span>
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049 1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.795 2.013 10.148 2 12.315 2zm-1.161 16.95c.983.473 2.146.473 3.13 0a1.18 1.18 0 00.75-1.096c.01-1.31.01-3.64 0-4.95-.01-1.08-.43-1.68-1.45-1.85-.98-.17-2.1-.17-3.08 0-.97.16-1.4.74-1.45 1.85-.01 1.31-.01 3.64 0 4.95.01.62.33 1.01.75 1.096z" clipRule="evenodd" /></svg>
+                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.795 2.013 10.148 2 12.315 2zm-1.161 16.95c.983.473 2.146.473 3.13 0a1.18 1.18 0 00.75-1.096c.01-1.31.01-3.64 0-4.95-.01-1.08-.43-1.68-1.45-1.85-.98-.17-2.1-.17-3.08 0-.97.16-1.4.74-1.45 1.85-.01 1.31-.01 3.64 0 4.95.01.62.33 1.01.75 1.096z" clipRule="evenodd" /></svg>
               </SocialIcon>
-              <SocialIcon href="#">
+              <SocialIcon href="https://x.com/CSinsightsSol?t=3IuQ4KZGRFaa-D1yIttB5g&s=09">
                 <span className="sr-only">Twitter</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               </SocialIcon>

@@ -16,13 +16,12 @@ const NEWSLETTER_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzB2oktCE
 
 
 const clientLogos = [
-  { name: 'Aperture Science', imageUrl: 'https://i.imgur.com/v1s5nAz.png' },
-  { name: 'Black Mesa', imageUrl: 'https://i.imgur.com/yGLpAbR.png' },
-  { name: 'Stark Industries', imageUrl: 'https://i.imgur.com/3zM4iV9.png' },
-  { name: 'Wayne Enterprises', imageUrl: 'https://i.imgur.com/nRLiT1A.png' },
-  { name: 'Globex Corporation', imageUrl: 'https://i.imgur.com/gxsf02v.png' },
-  { name: 'Cyberdyne Systems', imageUrl: 'https://i.imgur.com/C184a4w.png' },
-  { name: 'Umbrella Corp', imageUrl: 'https://i.imgur.com/5nQ1vE9.png' },
+  { name: 'OLSE Nigeria Limited', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiPk9MU0UgTklHPC90ZXh0Pjwvc3ZnPg==' },
+  { name: 'Burn Stoves Nigeria', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiPkJVUk4gU1RPVkVTPC90ZXh0Pjwvc3ZnPg==' },
+  { name: 'Keturkey Enterprise', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiPktFVFVSS0VZPC90ZXh0Pjwvc3ZnPg==' },
+  { name: 'EmiliaOla Supermart Enterprise', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjgiIGZpbGw9IiNmZmZmZmYiPkVtaWxpYU9sYTwvdGV4dD48L3N2Zz4=' },
+  { name: 'Zealluck Resources', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiPlpFQUxMVUNLPC90ZXh0Pjwvc3ZnPg==' },
+  { name: 'CTO Nigeria Limited', imageUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNjAiPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiPkNUTyBOSUc8L3RleHQ+PC9zdmc+' },
 ];
 
 const consultingExpertise = [
@@ -150,33 +149,6 @@ const HomePage: React.FC = () => {
       {/* Hero Carousel Section */}
       <HeroCarousel slides={homeSlides} />
 
-      {/* Client Logos Section */}
-      <section className="py-16 bg-white dark:bg-gray-900">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-sm font-bold uppercase text-gray-500 dark:text-gray-400 tracking-widest">
-            Trusted by Leading Organizations
-          </h2>
-          <div
-            className="w-full inline-flex flex-nowrap overflow-hidden mt-8 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
-          >
-            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll group-hover:paused">
-              {clientLogos.map((logo, index) => (
-                <li key={index}>
-                  <img src={logo.imageUrl} alt={logo.name} className="h-10 w-auto invert dark:invert-0" />
-                </li>
-              ))}
-            </ul>
-            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll group-hover:paused" aria-hidden="true">
-              {clientLogos.map((logo, index) => (
-                <li key={index}>
-                  <img src={logo.imageUrl} alt={logo.name} className="h-10 w-auto invert dark:invert-0" />
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
       {/* Why Choose Us Section */}
       <section className="py-16 sm:py-24 bg-light-bg dark:bg-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -290,6 +262,33 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Client Logos Section (Moved to the bottom) */}
+      <section className="py-16 bg-white dark:bg-gray-900">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-sm font-bold uppercase text-gray-500 dark:text-gray-400 tracking-widest">
+            Trusted by Leading Organizations
+          </h2>
+          <div
+            className="w-full inline-flex flex-nowrap overflow-hidden mt-8 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+          >
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll group-hover:paused">
+              {clientLogos.map((logo, index) => (
+                <li key={index}>
+                  <img src={logo.imageUrl} alt={logo.name} className="h-10 w-auto invert dark:invert-0" />
+                </li>
+              ))}
+            </ul>
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll group-hover:paused" aria-hidden="true">
+              {clientLogos.map((logo, index) => (
+                <li key={index}>
+                  <img src={logo.imageUrl} alt={logo.name} className="h-10 w-auto invert dark:invert-0" />
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

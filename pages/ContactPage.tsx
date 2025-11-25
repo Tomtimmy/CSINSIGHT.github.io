@@ -18,6 +18,38 @@ const faqs = [
     answer: 'We partner with a diverse range of clients, including startups, established businesses, non-governmental organizations (NGOs), and government agencies. Our solutions are tailored to meet the unique needs of each organization.',
   },
   {
+    question: 'What services do you provide?',
+    answer: 'We offer a comprehensive range of consulting services including Project Management, Data Analytics & Business Intelligence, Strategy & Process Improvement, Capacity Development & Training, Supply Chain Management, Import/Export Management, and IT Support & Cybersecurity.',
+  },
+  {
+    question: 'Do you work with small businesses?',
+    answer: 'Yes, absolutely. We work with organizations of all sizes, from startups and SMEs to large enterprises and government agencies. Our solutions are scalable and tailored to fit the specific budget and needs of growing businesses.',
+  },
+  {
+    question: 'How can I request a consultation?',
+    answer: 'You can request a consultation by filling out the contact form on this page, emailing us at csinsightssolution@gmail.com, or calling us directly at +234 813 284 7661. We will schedule a time to discuss your needs.',
+  },
+  {
+    question: 'Do you offer virtual or physical training?',
+    answer: 'We offer both. Our Capacity Development & Training programs can be delivered in-person at your facility or a designated venue, or virtually via online platforms, depending on your preference and logistical requirements.',
+  },
+  {
+    question: 'Can you manage full end-to-end projects?',
+    answer: 'Yes. We specialize in end-to-end project management. From initial scoping and planning to execution, monitoring, and final delivery, we handle every aspect to ensure your project is completed on time and within budget.',
+  },
+  {
+    question: 'Do you offer post-project support?',
+    answer: 'Yes, we believe in sustainable results. We often provide post-implementation support, which may include monitoring, staff training on new systems, and periodic reviews to ensure the solutions we implemented continue to deliver value.',
+  },
+  {
+    question: 'Can you analyze small datasets?',
+    answer: 'Yes. Data insights are valuable regardless of volume. We help small businesses analyze their available data—whether it\'s sales records, inventory logs, or customer feedback—to uncover trends and make smarter decisions.',
+  },
+  {
+    question: 'Do you work with international clients?',
+    answer: 'Yes, we serve clients globally. Particularly in our Importation & Exportation and Supply Chain services, we have extensive experience coordinating cross-border operations and working with international partners.',
+  },
+  {
     question: 'How do you begin a new project?',
     answer: 'Every project starts with a discovery phase where we immerse ourselves in your challenges and goals. We conduct thorough analysis and collaborate closely with your team to ensure we have a deep understanding of your needs before designing a strategy.',
   },
@@ -186,6 +218,7 @@ const ContactPage: React.FC = () => {
                             <div className="ml-4">
                                 <h3 className="text-xl font-semibold text-text-dark dark:text-white">Our Office</h3>
                                 <p className="mt-1 text-text-dark dark:text-gray-300">No. 5, Eta Avenue, Oregun Ikeja.</p>
+                                <p className="text-text-dark dark:text-gray-300">14 Ilupeju Street, Abule Egba, Lagos, Nigeria.</p>
                             </div>
                         </div>
                         <div className="flex items-start">

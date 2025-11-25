@@ -8,6 +8,349 @@
 
 export const blogPosts = [
   {
+    id: 15,
+    title: 'Beyond Deadlines: The Human Side of Project Success',
+    excerpt: 'At C_S Insight & Solutions, we view project management as the heartbeat of organizational transformation — turning strategic intent into measurable impact.',
+    category: 'Project Management',
+    date: 'November 25, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>In every successful organization, projects aren’t just about tasks and timelines — they’re about people, collaboration, and purpose. At C_S Insight & Solutions Firm, we view project management as the heartbeat of organizational transformation — a dynamic process that turns strategic intent into measurable impact.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Turning Complexity into Clarity</h2>
+      <p>Many organizations struggle not because they lack good ideas, but because those ideas are lost in execution. Complex processes, unclear communication, and shifting priorities can derail even the best strategies. Our team brings a data-informed, people-centered approach to project management, combining agile methodologies with predictive analytics to identify risk before it escalates.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Where Strategy Meets Execution</h3>
+      <p>We believe every project tells a story. It begins with vision, grows through collaboration, and ends with measurable success. Our consultants don’t just manage tasks — they mentor teams, foster accountability, and ensure every stakeholder understands their role in achieving the end goal.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Great project management isn’t about control — it’s about connection.”
+      </blockquote>
+      
+      <p class="mt-6">Whether you’re launching a new initiative or managing organizational change, our tailored project management solutions provide the foundation for sustainable growth.</p>
+    `,
+  },
+  {
+    id: 14,
+    title: 'Crossing Borders, Creating Opportunities in Global Trade',
+    excerpt: 'Navigating the global marketplace requires knowledge, precision, and compliance. We help businesses take the complexity out of international trade.',
+    category: 'Supply Chain',
+    date: 'November 22, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/262353/pexels-photo-262353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>In today’s interconnected world, success often lies beyond domestic borders. But navigating the global marketplace requires more than ambition — it demands knowledge, precision, and compliance. That’s where C_S Insight & Solutions Firm comes in.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Turning Global Trade into Local Growth</h2>
+      <p>A well-managed trade strategy expands markets, builds brand reputation, and strengthens economic partnerships. Our consultants work closely with businesses to design scalable trade solutions that minimize cost and maximize impact. From feasibility studies for new export markets to optimizing import supply routes, we combine data analysis with local expertise to give our clients an edge.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Your Gateway to Global Success</h3>
+      <p>At C_S Insight & Solutions Firm, we see every border as a bridge to opportunity. Our mission is to empower businesses with the confidence and clarity they need to expand sustainably on the world stage.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Trade is not just an exchange of goods — it’s an exchange of possibilities.”
+      </blockquote>
+      
+      <p class="mt-6">We simplify customs processes, coordinate logistics, and guide clients through regulatory frameworks that can otherwise be overwhelming.</p>
+    `,
+  },
+  {
+    id: 13,
+    title: 'From Movement to Mastery: Redefining Supply Chain Excellence',
+    excerpt: 'In a world where a single delay can ripple through a market, businesses need smart systems that can predict, adapt, and perform under pressure.',
+    category: 'Supply Chain',
+    date: 'November 20, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/1048033/pexels-photo-1048033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>Behind every successful business lies an invisible network of people, processes, and systems working together to move products efficiently. That network is the supply chain — the silent powerhouse that determines whether an organization thrives or stalls.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Resilience Is the New Efficiency</h2>
+      <p>Today’s supply chains must do more than cut costs; they must anticipate disruptions and create flexibility. Our experts leverage data analytics, scenario modeling, and process optimization to help clients make informed decisions that withstand change.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Empowering Smarter Operations</h3>
+      <p>We partner with businesses to map end-to-end supply flows, identify vulnerabilities, and implement digital tools that enable real-time visibility. Our mission is simple: to build supply chains that power success stories. Through collaboration and data-driven insights, we transform fragmented operations into well-oiled systems.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “The best supply chains don’t just deliver products — they deliver confidence.”
+      </blockquote>
+      
+      <p class="mt-6">At C_S Insight & Solutions Firm, we believe supply chain management isn’t just about logistics — it’s about building resilience, foresight, and trust.</p>
+    `,
+  },
+  {
+    id: 12,
+    title: 'The Power of Clarity: Turning Data into Decisions',
+    excerpt: 'We help organizations transform raw numbers into meaningful narratives — stories that reveal opportunities, expose inefficiencies, and guide smarter decisions.',
+    category: 'Data Analytics',
+    date: 'November 18, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>In a world overflowing with information, the difference between success and stagnation lies in how well businesses understand their data. We help organizations transform raw numbers into meaningful narratives that reveal opportunities, expose inefficiencies, and guide smarter decisions.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">From Insight to Impact</h2>
+      <p>We combine advanced analytics tools with business intuition to make data work for you. Through performance tracking, predictive modeling, and visualization, we identify what drives results — and what holds them back. Our team doesn’t just report numbers; we explain their “why” and “what next.”</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Smarter Data, Stronger Direction</h3>
+      <p>The result of our approach is decision-making that’s faster, sharper, and more confident. Our clients often discover hidden patterns that reshape their strategies and unlock new growth.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Information is power, but insight is progress.”
+      </blockquote>
+      
+      <p class="mt-6">At C_S Insight & Solutions Firm, we see data as more than numbers — it’s the language of modern business.</p>
+    `,
+  },
+  {
+    id: 11,
+    title: 'From Possibility to Proof: Building Confidence Before Commitment',
+    excerpt: 'We help organizations find answers before they make investments, because clarity reduces risk and preparation fuels success.',
+    category: 'Strategy',
+    date: 'November 15, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/733397/pexels-photo-733397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>Every successful business decision begins with a single question: Is this feasible? At C_S Insight & Solutions Firm, we help organizations find answers before they make investments — because clarity reduces risk, and preparation fuels success.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Data Meets Experience</h2>
+      <p>Our approach combines data analytics with real-world understanding. We don’t just crunch numbers — we interpret what they mean for your specific goals. Whether launching a new product line or entering a foreign market, we deliver insights that empower confident action.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Confidence in Every Decision</h3>
+      <p>Information alone isn’t enough. That’s why we also invest in training, equipping teams with the knowledge and skills to execute findings effectively. Our training programs ensure organizations can turn feasibility into achievement.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Don’t guess the future — prepare for it.”
+      </blockquote>
+      
+      <p class="mt-6">Feasibility studies are more than documents; they’re decision-making tools that turn uncertainty into direction.</p>
+    `,
+  },
+  {
+    id: 10,
+    title: 'From Storage to Strategy: The New Era of Smart Warehousing',
+    excerpt: 'We see modern warehouse management as the nerve center of operational excellence, where logistics and analytics converge to drive performance.',
+    category: 'Supply Chain',
+    date: 'November 12, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/4483609/pexels-photo-4483609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/7947659/pexels-photo-7947659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>A warehouse used to be a place where products simply waited. But in today’s data-driven economy, warehousing has evolved into something far more strategic. We see modern warehouse management as the nerve center of operational excellence.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Efficiency Built on Insight</h2>
+      <p>Every square meter of warehouse space tells a story. With intelligent inventory systems, IoT integration, and real-time tracking, we turn data into actionable insight. Our team designs layouts, workflows, and technologies that ensure faster picking, reduced errors, and smoother operations.</p>
+      
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Smarter Storage, Stronger Growth</h3>
+      <p>Our consultants analyze historical data, forecast demand, and create adaptable systems that support business growth without disruption. Once clients see how insight-driven management boosts fulfillment speed, they never go back to guesswork.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “An efficient warehouse isn’t about stacking boxes; it’s about stacking opportunities.”
+      </blockquote>
+      
+      <p class="mt-6">Our goal is to help businesses transform warehouses from cost centers into value creators.</p>
+    `,
+  },
+  {
+    id: 9,
+    title: 'Securing the Digital Future: Protecting What Powers Your Business',
+    excerpt: 'Technology drives modern business, but it also introduces new risks. Our IT Support & Cybersecurity services ensure your digital operations remain secure, stable, and scalable.',
+    category: 'IT & Cybersecurity',
+    date: 'November 10, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>Technology drives modern business — but it also introduces new risks. At C_S Insight & Solutions Firm, our IT Support & Cybersecurity services ensure that your digital operations remain secure, stable, and scalable.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Proactive Protection, Not Reactive Repair</h2>
+      <p>Our cybersecurity framework is built on prevention, detection, and response. We implement layered defenses that protect against data breaches, malware, and emerging cyber threats. More importantly, we train your team to identify and respond to risks effectively.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Trust Built on Security</h3>
+      <p>We offer comprehensive IT management solutions designed to keep systems running smoothly, minimize downtime, and safeguard critical information. Our goal is simple: protect your business integrity while enhancing your operational resilience.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Innovation thrives where security is strong.”
+      </blockquote>
+      
+      <p class="mt-6">At C_S Insight & Solutions Firm, we believe digital confidence starts with digital protection.</p>
+    `,
+  },
+  {
+    id: 8,
+    title: 'Empowering People, Transforming Futures Through Vocational Training',
+    excerpt: 'At the heart of every thriving economy are skilled people. We are committed to vocational education programs that prepare learners for real-world impact.',
+    category: 'Training & Development',
+    date: 'November 08, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>At the heart of every thriving economy are skilled people — individuals empowered to create, innovate, and lead. C_S Insight & Solutions Firm is deeply committed to vocational education and training programs that prepare learners for real-world impact.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">From Learning to Earning</h2>
+      <p>Our approach bridges the gap between education and employment. We collaborate with industry partners to design programs that equip learners not just with knowledge but with employable expertise. Through workshops, mentorship, and hands-on projects, participants gain confidence and clarity.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Inspiration Meets Implementation</h3>
+      <p>We also help organizations design internal training frameworks that foster continuous learning and performance improvement among employees. We see education as a lifelong investment — in people, in progress, in potential.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “When you teach a skill, you light a path.”
+      </blockquote>
+      
+      <p class="mt-6">Our skill development initiatives are practical, adaptable, and aligned with market needs, covering areas like technical trades, digital skills, and data literacy.</p>
+    `,
+  },
+  {
+    id: 7,
+    title: 'Turning Connections into Conversions: The Science of Smart Growth',
+    excerpt: 'Our Lead Generation & Business Development services focus on building meaningful pipelines that convert interest into action.',
+    category: 'Strategy',
+    date: 'November 05, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/6476587/pexels-photo-6476587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>Every thriving business began with a conversation — one that turned into trust, and then into opportunity. Our Lead Generation & Business Development services focus on building meaningful pipelines that convert interest into action.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">Growth That’s Intentional, Not Accidental</h2>
+      <p>Through data segmentation, behavioral analytics, and sales funnel optimization, we make sure your business doesn’t just reach people — it reaches the right people. Our focus is on long-term relationships, not short-term wins.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Relationships That Drive Results</h3>
+      <p>We believe the best business development strategy isn’t about chasing numbers but about building partnerships that create shared value. We don’t just help you find leads — we help you grow leaders.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “The future of business isn’t who you reach — it’s how deeply you connect.”
+      </blockquote>
+      
+      <p class="mt-6">We combine marketing intelligence with human insight to identify, attract, and engage high-value clients.</p>
+    `,
+  },
+  {
+    id: 6,
+    title: 'Delivering More Than Products — Delivering Performance',
+    excerpt: 'Effective distribution isn’t just about logistics — it’s about strategy. We help businesses build distribution systems that are efficient, scalable, and customer-focused.',
+    category: 'Supply Chain',
+    date: 'November 02, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/4481258/pexels-photo-4481258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/7703352/pexels-photo-7703352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>In the fast-moving world of commerce, effective distribution isn’t just about logistics — it’s about strategy. At C_S Insight & Solutions Firm, we help businesses build distribution systems that are not only efficient but also scalable and customer-focused.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">From Point A to Point Profit</h2>
+      <p>Through smart routing algorithms, performance monitoring, and regional network analysis, we transform distribution into a competitive advantage. Our approach is data-driven yet human, blending technology with practical experience in supply chain and market realities.</p>
+
+      [IMAGE-1]
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Efficiency Is the New Delivery Standard</h3>
+      <p>Our team works with brands and distributors to streamline delivery routes, reduce transit time, and optimize inventory positioning. We understand that every minute saved in delivery translates into improved customer satisfaction and business growth.</p>
+
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Great distribution isn’t about how far you go — it’s about how smart you move.”
+      </blockquote>
+      
+      <p class="mt-6">Whether you’re expanding regionally or optimizing local last-mile delivery, we design systems that align with your goals.</p>
+    `,
+  },
+  {
+    id: 5,
+    title: 'Data Behind the Doors: Unlocking Hidden Value in Your Warehouse',
+    excerpt: 'At C_S Insight & Solutions Firm, we help organizations look beyond the shelves and pallets to uncover patterns that drive performance, efficiency, and profit.',
+    category: 'Data Analytics',
+    date: 'October 28, 2023',
+    imageUrls: [
+      'https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/7567561/pexels-photo-7567561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    content: `
+      <p>Behind every efficient warehouse is an invisible layer of intelligence — data. At C_S Insight & Solutions Firm, we help organizations look beyond the shelves and pallets to uncover patterns that drive performance, efficiency, and profit.</p>
+      
+      <h2 class="text-2xl font-bold mt-8 mb-4">From Operations to Optimization</h2>
+      <p>Modern warehousing isn’t just about how products move — it’s about what the data tells us. Our Warehouse Data Analysis & Management services transform scattered data points into structured insight, revealing everything from bottlenecks in operations to opportunities for automation and savings.</p>
+      
+      [IMAGE-1]
+
+      <p>Using analytics tools and real-time tracking, we identify inefficiencies that often go unnoticed — slow-moving inventory, redundant tasks, space underutilization, and delayed dispatches. With our team’s expertise, warehouses evolve into intelligent systems that make informed decisions.</p>
+
+      <h3 class="text-xl font-bold mt-6 mb-3">Turning Numbers into Navigation</h3>
+      <p>Our goal is to ensure that every square meter and every second in your operation contributes to value creation. We integrate dashboards and data visualization tools that provide clarity at a glance — empowering managers to act, not just react.</p>
+      
+      [IMAGE-2]
+
+      <blockquote class="border-l-4 border-primary dark:border-secondary pl-4 my-6 italic text-gray-700 dark:text-gray-300">
+        “Don’t just store data — use it to move smarter, faster, better.”
+      </blockquote>
+
+      <p class="mt-6">Data management is the compass that keeps logistics aligned and responsive. By leveraging your own operational data, you can transform your warehouse intelligence and gain a significant competitive advantage.</p>
+    `,
+  },
+  {
     id: 1,
     title: 'The Future of Data Management in Growing Businesses',
     excerpt: 'Explore the key trends and strategies for effective data management that can propel your business forward.',

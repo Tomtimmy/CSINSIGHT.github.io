@@ -1,4 +1,5 @@
 
+
 import React, { useState } from 'react';
 import Button from '../components/Button';
 import HeroCarousel from '../components/HeroCarousel';
@@ -64,30 +65,114 @@ const services: Service[] = [
     ],
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222 4 2.222V20M12 12L4 7l8-4 8 4-8 5z" /></svg>,
   },
-  // {
-  //   title: 'Supply Chain Optimization',
-  //   description: 'We streamline logistics and procurement systems, helping businesses reduce waste, cut costs, and improve reliability from end to end.',
-  //   details: [
-  //     'Logistics network design and optimization',
-  //     'Procurement and strategic sourcing',
-  //     'Inventory management and demand forecasting',
-  //     'Supplier relationship management',
-  //     'Implementation of SCM software solutions',
-  //   ],
-  //   icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2-2h8zM21 16h-2a2 2 0 00-2 2v-6a2 2 0 00-2-2H9" /></svg>,
-  // },
-  // {
-  //   title: 'Audit & Feasibility Studies',
-  //   description: 'We assess operational and financial feasibility to guide investment, expansion, and sustainability decisions with confidence.',
-  //   details: [
-  //     'Financial viability and ROI analysis',
-  //     'Market research and competitive analysis',
-  //     'Operational feasibility and resource planning',
-  //     'Risk assessment and mitigation reports',
-  //     'Comprehensive due diligence for investments',
-  //   ],
-  //   icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>,
-  // },
+    {
+    title: 'Supply Chain Management',
+    description: 'We streamline end-to-end supply chain operations, optimizing procurement, logistics, and distribution to reduce costs and improve delivery efficiency.',
+    details: [
+      'Logistics network design and optimization',
+      'Procurement and strategic sourcing',
+      'Inventory management and demand forecasting',
+      'Supplier relationship management',
+      'Implementation of SCM software solutions',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2-2h8zM21 16h-2a2 2 0 00-2 2v-6a2 2 0 00-2-2H9" /></svg>,
+  },
+  {
+    title: 'Importation & Exportation',
+    description: 'Our experts handle global trade operations, from customs documentation to freight coordination, ensuring smooth, compliant, and cost-efficient import and export processes.',
+    details: [
+      'Customs compliance and documentation management',
+      'Freight forwarding and logistics coordination',
+      'Tariff and duty optimization strategies',
+      'International trade consulting and market entry',
+      'Supply chain security and risk management',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3" /></svg>,
+  },
+  {
+    title: 'Warehouse Management',
+    description: 'We help businesses optimize warehouse layout, inventory control, and automation for greater efficiency and accuracy.',
+    details: [
+      'Warehouse layout and workflow design',
+      'Inventory control systems (WMS) implementation',
+      'Order picking and fulfillment process optimization',
+      'Automation and robotics integration consulting',
+      'Safety and compliance audits',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>,
+  },
+  {
+    title: 'Feasibility Study & Training',
+    description: 'We conduct in-depth feasibility assessments and provide targeted training programs to support business expansion, operational readiness, and workforce development.',
+    details: [
+      'Market research and financial viability analysis',
+      'Operational readiness and resource planning',
+      'Risk assessment and mitigation reports',
+      'Customized curriculum and training material development',
+      'Capacity-building workshops and coaching',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>,
+  },
+  {
+    title: 'Warehouse Data Analysis & Management',
+    description: 'We leverage analytics to track warehouse performance, forecast demand, and improve overall inventory management.',
+    details: [
+      'Performance metric (KPI) development and tracking',
+      'Predictive analytics for demand forecasting',
+      'Inventory optimization and stock level analysis',
+      'Real-time data visualization and dashboards',
+      'Process improvement through data insights',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>,
+  },
+  {
+    title: 'Product Distribution',
+    description: 'Our distribution strategies ensure your products reach customers efficiently, increasing market penetration and customer satisfaction.',
+    details: [
+      'Distribution network design and optimization',
+      'Route planning and logistics management',
+      'Last-mile delivery solution consulting',
+      'Carrier selection and contract negotiation',
+      'Performance tracking and reporting',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>,
+  },
+  {
+    title: 'Lead Generation & Business Development',
+    description: 'We support growth through data-driven lead generation and business development strategies that strengthen market presence and drive results.',
+    details: [
+      'Targeted lead generation campaigns',
+      'Sales funnel optimization and analysis',
+      'Customer Relationship Management (CRM) strategy',
+      'Market entry and business expansion planning',
+      'Partnership and channel development',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
+  },
+    {
+    title: 'Vocational Education & Skills Training',
+    description: 'We empower individuals and teams through vocational and technical skill-building programs, promoting self-reliance and productivity.',
+    details: [
+        'Customized curriculum design for technical skills',
+        'Hands-on workshops and practical training',
+        'Leadership and soft skills development',
+        'Certification and upskilling pathway programs',
+        'Train-the-trainer initiatives for sustainability',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222 4 2.222V20M12 12L4 7l8-4 8 4-8 5z" /></svg>,
+  },
+  {
+    title: 'IT Support & Cybersecurity',
+    description: 'We provide dependable IT solutions and cybersecurity support to protect your digital assets, ensuring smooth and secure business operations.',
+    details: [
+      'Managed IT services and helpdesk support',
+      'Cybersecurity risk assessments and audits',
+      'Data breach prevention and incident response',
+      'Network security, firewalls, and monitoring',
+      'Cloud security and infrastructure management',
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-primary dark:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>,
+  },
 ];
 
 const serviceSlides = [
@@ -110,6 +195,21 @@ const serviceSlides = [
     imageUrl: imagePaths.servicesHero4,
     title: 'Capacity Development & Training',
     subtitle: 'Empowering your teams with the skills and knowledge they need to excel.',
+  },
+  {
+    imageUrl: 'https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Supply Chain Management',
+    subtitle: 'Streamlining operations from procurement to delivery.',
+  },
+  {
+    imageUrl: 'https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Global Trade Solutions',
+    subtitle: 'Navigating the complexities of importation and exportation.',
+  },
+    {
+    imageUrl: 'https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'IT & Cybersecurity',
+    subtitle: 'Protecting your digital assets with robust security solutions.',
   }
 ];
 

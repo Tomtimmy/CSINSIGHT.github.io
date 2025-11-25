@@ -13,7 +13,7 @@ import CaseStudyDetailPage from './pages/CaseStudyDetailPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ScrollToTopButton from './components/ScrollToTopButton';
-import CreatePostPage from './pages/CreatePostPage'; // Import the new page
+// import CreatePostPage from './pages/CreatePostPage'; // Hidden for now
 
 const ScrollHandler: React.FC = () => {
   const { pathname, hash } = useLocation();
@@ -53,7 +53,7 @@ const App: React.FC = () => {
             <Route path="/portfolio" element={<CaseStudiesPage />} />
             <Route path="/portfolio/:id" element={<CaseStudyDetailPage />} />
             <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/create" element={<CreatePostPage />} />
+            {/* <Route path="/blog/create" element={<CreatePostPage />} /> Hidden for now */}
             <Route path="/blog/:id" element={<BlogDetailPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
