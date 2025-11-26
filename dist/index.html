@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- TODO: Replace this with your own favicon -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co/yBbfXjSS/INSIGHTS-SOLUTIONS.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C_S Insight and Solution Firm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable dark mode
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#1E3A8A',     // Navy Blue
+              'secondary': '#A3E635',   // Lemon Green
+              'light-bg': '#E0F2FE',    // Sky Blue
+              'dark-bg': '#14532D',     // Dark Green
+              'text-dark': '#1F2937',   // Dark Gray (for text)
+              'secondary-hover': '#84CC16', 
+              'primary-hover': '#1E40AF',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'infinite-scroll': 'infinite-scroll 30s linear infinite',
+            },
+            keyframes: {
+              'infinite-scroll': {
+                from: { transform: 'translateX(0)' },
+                to: { transform: 'translateX(-100%)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 112px; /* header offset */
+      }
+    </style>
+
+
+
+    <!-- FIXED: Use relative paths so custom domain works -->
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="./assets/index-Bi3SGAAd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CuFSqQR3.css">
+  </head>
+
+  <body class="bg-white dark:bg-gray-900">
+    <div id="root"></div>
+  </body>
+</html>
