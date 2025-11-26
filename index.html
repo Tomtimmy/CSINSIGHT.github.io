@@ -18,9 +18,8 @@
               'light-bg': '#E0F2FE',    // Sky Blue
               'dark-bg': '#14532D',     // Dark Green
               'text-dark': '#1F2937',   // Dark Gray (for text)
-              // Adding hover colors for easier access
-              'secondary-hover': '#84CC16', // Darker Lemon Green
-              'primary-hover': '#1E40AF',   // Lighter Navy Blue
+              'secondary-hover': '#84CC16', 
+              'primary-hover': '#1E40AF',
             },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
@@ -38,31 +37,37 @@
         }
       }
     </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <style>
       html {
         scroll-behavior: smooth;
-        /* Offset for the sticky header (h-28 = 7rem = 112px) */
-        scroll-padding-top: 112px;
+        scroll-padding-top: 112px; /* header offset */
       }
     </style>
-
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/CSINSIGHT.github.io/assets/index-DMyMHaHp.js"></script>
-  <link rel="stylesheet" crossorigin href="/CSINSIGHT.github.io/assets/index-CuFSqQR3.css">
-</head>
+
+
+
+    <!-- FIXED: Use relative paths so custom domain works -->
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="./assets/index-Bi3SGAAd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CuFSqQR3.css">
+  </head>
+
   <body class="bg-white dark:bg-gray-900">
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>
