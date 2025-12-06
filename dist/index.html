@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- TODO: Replace this with your own favicon -->
     <link rel="icon" type="image/png" href="https://i.ibb.co/yBbfXjSS/INSIGHTS-SOLUTIONS.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>C_S Insight and Solution Firm</title>
@@ -18,8 +17,9 @@
               'light-bg': '#E0F2FE',    // Sky Blue
               'dark-bg': '#14532D',     // Dark Green
               'text-dark': '#1F2937',   // Dark Gray (for text)
-              'secondary-hover': '#84CC16', 
-              'primary-hover': '#1E40AF',
+              // Adding hover colors for easier access
+              'secondary-hover': '#84CC16', // Darker Lemon Green
+              'primary-hover': '#1E40AF',   // Lighter Navy Blue
             },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
@@ -37,37 +37,33 @@
         }
       }
     </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
     <style>
       html {
         scroll-behavior: smooth;
-        scroll-padding-top: 112px; /* header offset */
+        /* Offset for the sticky header (h-28 = 7rem = 112px) */
+        scroll-padding-top: 112px;
       }
     </style>
 
-
-
-    <!-- FIXED: Use relative paths so custom domain works -->
-
-    <script type="importmap">
-    {
-      "imports": {
-        "react/": "https://aistudiocdn.com/react@^19.2.0/",
-        "react": "https://aistudiocdn.com/react@^19.2.0",
-        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
-      }
-    }
-    </script>
-    <script type="module" crossorigin src="./assets/index-Bi3SGAAd.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CuFSqQR3.css">
-  </head>
-
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-JIvEkfi7.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-YgcE8gJQ.css">
+</head>
   <body class="bg-white dark:bg-gray-900">
     <div id="root"></div>
-  </body>
+</body>
 </html>

@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
               Transforming complexity into clarity. We help organizations simplify data, strengthen systems, and achieve measurable growth.
             </p>
             <div className="mt-6">
-                <p className="text-gray-300">No. 5, Eta Avenue, Oregun Ikeja.</p>
-                <p className="text-gray-300">14 Ilupeju Street, Abule Egba, Lagos, Nigeria.</p>
+                <p className="text-gray-300">14 Ilupeju Street, Abule Egba, Lagos.</p>
+                <p className="text-gray-300">14, Unity Avenue, Owode Onirin, Agboyi Ketu, Lagos State.</p>
                 <p className="mt-2 text-gray-300">
                   Phone: <a href="tel:+2348132847661" className="hover:text-secondary">+234 813 284 7661</a>
                 </p>
